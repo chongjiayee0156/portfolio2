@@ -18,11 +18,11 @@ export default function Contact() {
                 </div>
                 <div className="app linkedin">
                     <FaLinkedin className="icon" />
-                    <a href="www.linkedin.com/in/jia-yee-chong-2a5a60285">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/jia-yee-chong-2a5a60285" target="_blank">LinkedIn</a>
                 </div>
                 <div className="app github">
                     <AiFillGithub className="icon" />
-                    <a href="https://github.com/chongjiayee0156">GitHub</a>
+                    <a href="https://github.com/chongjiayee0156" target="_blank">GitHub</a>
                 </div>
                 <div className="app phone">
                     <AiOutlinePhone className="icon" />
