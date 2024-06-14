@@ -9,7 +9,16 @@ body {
   padding: $padding;
   color: $primary-text-color;
   font-size: $desktop-font-size;
+
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 48px - 8vmin); /* Ensure App takes full viewport height */
+}
+
+
 
 @media screen and (max-width: 768px) {
   body {

@@ -1,0 +1,38 @@
+{
+    "achievements": [
+        {
+            "title": "top 1% scholar",
+            "date": "Jan 2023 - current",
+            "description": "in Monash School of IT (based on WAM)"
+        },
+        {
+            "title": "2nd place in competitive programming",
+            "date": "Feb 2024",
+            "description": "Monash coding league"
+        },
+        {
+            "title": "Best pitcher in hackathon",
+            "date": "Dec 2023",
+            "description": "Resilient city by eiHub"
+        },
+        {
+            "title": "4.0 cgpa",
+            "date": "July 2022",
+            "description": "in Sunway Foundation in Science"
+        },
+        {
+            "title": "Top SPM result (9A+ 1A)",
+            "date": "Mar 2021",
+            "description": "in SMK Bukit Tinggi"
+        },
+        {
+            "title": "Head of Prefect",
+            "date": "Mar 2017-Mar 2021",
+            "description": "in SMK Bukit Tinggi"
+        }, {
+            "title": "State level competitive public speaker",
+            "date": "2016-2021",
+            "description": "Conduct impromptu speeches in Mandarin (won numerous prizes)"
+        }
+    ]
+}
