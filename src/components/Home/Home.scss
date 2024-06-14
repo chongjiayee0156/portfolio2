@@ -1,0 +1,78 @@
+$primary-color: #070F2B;
+$padding: 8vmin;
+$primary-text-color: #fff;
+$mobile-font-size: 4vmin; // Adjusted for better responsiveness
+$desktop-font-size: 5vmin;
+$mobile-h1-size: 6vmin; // Specific font sizes for h1, h2, h4, and p
+$desktop-h1-size: 8vmin;
+$mobile-h2-size: 5vmin;
+$desktop-h2-size: 6vmin;
+$mobile-h4-size: 4vmin;
+$desktop-h4-size: 5vmin;
+$mobile-p-size: 3vmin;
+$desktop-p-size: 4vmin;
+
+.home{
+    padding: $padding;
+    color: $primary-text-color;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        font-size: $mobile-h1-size;
+    }
+
+    h2 {
+        font-size: $mobile-h2-size;
+    }
+
+    h4 {
+        font-size: $mobile-h4-size;
+    }
+
+    p {
+        font-size: $mobile-p-size;
+    }
+
+    .img{
+        width: 40%;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .home {
+        display: flex;
+        flex-direction: row;
+        h1 {
+            font-size: $desktop-h1-size;
+        }
+
+        h2 {
+            font-size: $desktop-h2-size;
+        }
+
+        h4 {
+            font-size: $desktop-h4-size;
+        }
+
+        p {
+            font-size: $desktop-p-size;
+        }
+
+        .img{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30%;
+            margin: 0 auto;
+    
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
