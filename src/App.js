@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
 import NavBar from './components/NavBar/NavBar';
 
+
 function App() {
   return (
     <div className="App">

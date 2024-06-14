@@ -1,0 +1,111 @@
+// NavBar.scss
+$primary-color: #070F2B;
+$padding: 8vmin;
+$primary-text-color: #fff;
+$mobile-font-size: 5vmin;
+$desktop-font-size: 5vmin;
+
+.navbar{
+    .menu-icon{
+        display: none;
+        cursor: pointer;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    .menu-links{
+        // background-color: aquamarine;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        a{
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: #9290C3;
+            }
+        }
+    }
+    // background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    .navbar{
+        justify-content: flex-start;
+        .menu-icon{
+            display: block;
+        }
+        .menu-links{
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 80vw;
+            background-color: $primary-color;
+            padding: $padding;
+
+            a{
+                margin: 1rem 0;
+            }
+        }
+        .menu-links.active{
+            display: flex;
+        }
+    
+    }
+}
+// .navbar {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     background-color: #333;
+//     padding: 10px;
+  
+//     .menu-icon {
+//       display: none; // Hide menu icon by default on desktop
+//       cursor: pointer;
+//       color: #fff;
+//       font-size: 1.5rem;
+  
+//       @media (max-width: 768px) {
+//         display: block; // Show menu icon on mobile
+//       }
+//     }
+  
+//     .menu-links {
+//       display: flex;
+//       align-items: center;
+  
+//       @media (max-width: 768px) {
+//         flex-direction: column; // Stack links vertically on mobile
+//         position: absolute;
+//         top: 60px; // Adjust top position as needed
+//         left: 0;
+//         right: 0;
+//         background-color: #333;
+//         padding: 10px;
+//         display: none; // Hide links by default on mobile
+//       }
+  
+//       &.active {
+//         display: flex; // Show links when active class is applied
+//       }
+  
+//       a {
+//         color: #fff;
+//         text-decoration: none;
+//         margin: 0 10px;
+  
+//         @media (max-width: 768px) {
+//           margin: 5px 0;
+//         }
+//       }
+//     }
+//   }
+  
