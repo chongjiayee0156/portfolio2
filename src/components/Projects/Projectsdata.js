@@ -2,6 +2,7 @@
 import tictactoeimg from "../../assets/tictactoeimg.png";
 import creditcardimg from "../../assets/creditcardimg.png";
 import portfolioimg from "../../assets/portfolioimg.png";
+import visualizerimg from "../../assets/visualizerimg.png";
 
 export const projectsData = [
     {
@@ -13,11 +14,11 @@ export const projectsData = [
         "demo": ""
     },
     {
-        "name": "Project Two",
-        "img": "",
-        "description": "Description of Project Two",
-        "github": "",
-        "demo": ""
+        "name": "Sorting Algorithm Visualizer",
+        "img": visualizerimg,
+        "description": "A sorting algorithm revision website, includes visualizer, code, complexity and explanation of the algorithm",
+        "github": "https://github.com/chongjiayee0156/Sorting-Algo-Visualizer",
+        "demo": "https://chongjiayee0156.github.io/Sorting-Algo-Visualizer/"
     },
     {
         "name": "Portfolio Website",
@@ -38,7 +39,7 @@ export const projectsData = [
         "img": creditcardimg,
         "description": "A credit card that flips when hovered over",
         "techstack": "HTML, CSS, 3D animation",
-        "github": "",
-        "demo": ""
+        "github": "https://github.com/chongjiayee0156/flipping-credit-card",
+        "demo": "https://chongjiayee0156.github.io/flipping-credit-card/"
     }
 ]
