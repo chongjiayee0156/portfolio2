@@ -10,9 +10,9 @@ export default function Home(){
             <h2>Hi there!</h2>
             <h4>My name is Chong Jia Yee.</h4>
             <hr></hr>
-            <p>I'm a year 2 computer science student. </p>
-            <p>Looking for internship in software development. </p>
-            <p>Currently have 4.0 cgpa and scored 9A+ in SPM. </p>
+            <p>I'm a year 3 computer science student. </p>
+            <p>Looking for internship from 28th October 2024 - 31st January 2025 in software development. </p>
+            <p>Currently have 3.9 cgpa and scored 9A+ in SPM. </p>
             </div>
             <div className='img'>
                 <img src={cuteImage} alt="profile" />
