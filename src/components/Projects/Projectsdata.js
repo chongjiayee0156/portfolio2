@@ -6,15 +6,28 @@ import visualizerimg from "../../assets/visualizerimg.png";
 import organizationtasktrackingimg from "../../assets/organizationtasktrackingimg.png";
 import responsivesinglepagewebsiteimg from "../../assets/responsivesinglepagewebsiteimg.png";
 import animatedcandleimg from "../../assets/animatedcandleimg.png";
+import campusimg from "../../assets/campusimg.png";
+import braceleteimg from "../../assets/braceleteimg.png";
+import faceimg from "../../assets/faceimg.png";
+
 
 export const projectsData = [
     {
-        "name": "Campus Indoor AR Navigation",
-        "img": "",
-        "description": "An indoor navigation system for the Monash University Campus using Augmented Reality",
+        "name": "Campus Indoor AR Navigation (1/4)",
+        "img": campusimg,
+        "description": "(in progress) An indoor navigation system for the Monash University Campus using Augmented Reality",
         "techstack": "Android, Unity, ARCore, Google Cloud Platform",
-        "github": "",
+        "github": "https://github.com/chongjiayee0156/Campus-Indoor-AR-Navigation",
         "demo": ""
+        // https://youtube.com/shorts/hr2WL6O48OA?si=ECVB82YGiWiEqUSv
+    },
+    {
+        "name": "Re-activating eras tour bracelette",
+        "img": braceleteimg,
+        "description": "Learned Arduino to build an infrared emitter. By sending signals to the wrist band, the light will be lit up.",
+        "techstack": "Arduino, C++",
+        "github": "https://github.com/chongjiayee0156/re-activate-eras-tour-bracelete",
+        "demo": "https://youtube.com/shorts/gFjsvRJ6slU?si=mh0nGtKLHOg4ZV83"
     },
     {
         "name": "Sorting Algorithm Visualizer",
@@ -31,6 +44,14 @@ export const projectsData = [
         "techstack": "React, node, express, redux, mongodb",
         "github": "https://github.com/chongjiayee0156/fullstack-note-tracking",
         "demo": "https://swiftnote-tpdp.onrender.com/"
+    },
+    {
+        "name": "Face Recognition Payment System",
+        "img": faceimg,
+        "description": "Real-time face detection and recognition to process payment",
+        "techstack": "OpenCV, TKinter",
+        "github": "https://github.com/chongjiayee0156/face_recognition_payment_system",
+        "demo": "https://youtube.com/shorts/fbBtJJrJIis?si=6guAoFyB4K4Zgs49"
     },
     {
         "name": "Animated Glowing Candle",
@@ -59,14 +80,14 @@ export const projectsData = [
         "img": portfolioimg,
         "description": "A portfolio website to showcase my projects and skills",
         "techstack": "React, HTML, CSS, JavaScript, Bootstrap, GitHub Pages",
-        "github": "",
-        "demo": ""
+        "github": "https://github.com/chongjiayee0156/portfolio2",
+        "demo": "https://portfolio2-azure-eight.vercel.app/"
     },{
         "name": "Single Responsive Rocket Website",
         "img": responsivesinglepagewebsiteimg,
         "description": "A responsive single page website",
         "techstack": "HTML, CSS, JavaScript",
-        "github": "",
-        "demo": ""
+        "github": "https://github.com/chongjiayee0156/rocket",
+        "demo": "https://rocketjy.onrender.com/"
     }
 ]

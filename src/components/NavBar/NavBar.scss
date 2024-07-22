@@ -6,6 +6,7 @@ $mobile-font-size: 5vmin;
 $desktop-font-size: 5vmin;
 
 .navbar{
+    z-index: 100;
     .menu-icon{
         display: none;
         cursor: pointer;

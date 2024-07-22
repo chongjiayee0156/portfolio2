@@ -31,7 +31,10 @@ export default function Projects() {
                     {project.techstack && <p><strong>Tech Stack:</strong><br></br> {project.techstack}</p>}
                     <div className='buttons'>
                     {<button onClick={() => handleGitHubClick(project.github)}>GitHub</button>}
-                    {<button onClick={() => handleDemoClick(project.demo)}>Demo</button>}
+                    {project.demo ? 
+                        <button onClick={() => handleDemoClick(project.demo)}>Demo</button> : 
+                        <button disabled={true}>Demo</button>
+                    }
                     </div>
                 </div>
             ))}
