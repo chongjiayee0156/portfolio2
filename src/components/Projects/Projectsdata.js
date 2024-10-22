@@ -13,13 +13,12 @@ import faceimg from "../../assets/faceimg.png";
 
 export const projectsData = [
     {
-        "name": "Campus Indoor AR Navigation (1/4)",
+        "name": "Campus Indoor AR Navigation",
         "img": campusimg,
         "description": "(in progress) An indoor navigation system for the Monash University Campus using Augmented Reality",
         "techstack": "Android, Unity, ARCore, Google Cloud Platform",
         "github": "https://github.com/chongjiayee0156/Campus-Indoor-AR-Navigation",
-        "demo": ""
-        // https://youtube.com/shorts/hr2WL6O48OA?si=ECVB82YGiWiEqUSv
+        "demo": "https://youtube.com/shorts/kHn7hkHZYn8?feature=share"
     },
     {
         "name": "Re-activating eras tour bracelette",

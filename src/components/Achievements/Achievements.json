@@ -1,9 +1,19 @@
 {
     "achievements": [
         {
+            "title": "2nd place in best FYP award",
+            "date": "Oct 2024",
+            "description": "Implemented indoor localization system using BLE beacons and machine learning"
+        },
+        {
             "title": "top 1% scholar",
             "date": "Jan 2023 - current",
-            "description": "in Monash School of IT (based on WAM)"
+            "description": "In Monash School of IT (based on WAM)"
+        },
+        {
+            "title": "Highest grade in Introduction to Data Science",
+            "date": "July 2024",
+            "description": "iamong malaysia and Australia campus of Monash University"
         },
         {
             "title": "Lecture assistant & peer tutor",
