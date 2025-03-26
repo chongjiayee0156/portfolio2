@@ -9,7 +9,7 @@ import animatedcandleimg from "../../assets/animatedcandleimg.png";
 import campusimg from "../../assets/campusimg.png";
 import braceleteimg from "../../assets/braceleteimg.png";
 import faceimg from "../../assets/faceimg.png";
-import ats_generator from "../../assets/ats_generator";
+import ats_generator from "../../assets/ats-generator";
 
 
 export const projectsData = [
