@@ -9,13 +9,30 @@ import animatedcandleimg from "../../assets/animatedcandleimg.png";
 import campusimg from "../../assets/campusimg.png";
 import braceleteimg from "../../assets/braceleteimg.png";
 import faceimg from "../../assets/faceimg.png";
+import ats_generator from "../../assets/ats_generator";
 
 
 export const projectsData = [
     {
+        "name": "Coze AI Resume Generator",
+        "img": ats_generator,
+        "description": "Created AI agent that generates resume in the form of docx using user input prompts",
+        "techstack": "Coze AI, Python, Flask API, Supabase, Linkedin API",
+        "github": "https://github.com/chongjiayee0156/ai-chatbot-ats-resume-generator",
+        "demo": "https://youtu.be/3-9s5kqQRYQ?si=92h_zn0IMB5106vC"
+    },
+    {
+        "name": "Company Services Portal (iNTUition hackathon)",
+        "img": campusimg,
+        "description": "Developed within 24 hours, encourage employee's adoption of new tech by integrating AI RAG models within AI Agent",
+        "techstack": "Langchain, Coze AI, RAG model, Three JS",
+        "github": "https://github.com/pbearc/intuition?tab=readme-ov-file",
+        "demo": "https://youtu.be/9RDqXmom4xg?si=fQxCvYS3AMA1yKMU"
+    },
+    {
         "name": "Campus Indoor AR Navigation",
         "img": campusimg,
-        "description": "(in progress) An indoor navigation system for the Monash University Campus using Augmented Reality",
+        "description": "An indoor navigation system for the Monash University Campus using Augmented Reality",
         "techstack": "Android, Unity, ARCore, Google Cloud Platform",
         "github": "https://github.com/chongjiayee0156/Campus-Indoor-AR-Navigation",
         "demo": "https://youtube.com/shorts/kHn7hkHZYn8?feature=share"
