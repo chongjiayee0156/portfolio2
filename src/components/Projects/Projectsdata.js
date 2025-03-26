@@ -10,6 +10,7 @@ import campusimg from "../../assets/campusimg.png";
 import braceleteimg from "../../assets/braceleteimg.png";
 import faceimg from "../../assets/faceimg.png";
 import ats_generator from "../../assets/ats-generator.jpeg";
+import change_management from "../../assets/change_management.png";
 
 
 export const projectsData = [
@@ -23,8 +24,8 @@ export const projectsData = [
     },
     {
         "name": "Company Services Portal (iNTUition hackathon)",
-        "img": campusimg,
-        "description": "Developed within 24 hours, encourage employee's adoption of new tech by integrating AI RAG models within AI Agent",
+        "img": change_management,
+        "description": "Developed within 24 hours, this dashboard is to encourage employee's adoption of new tech by integrating AI RAG models within AI Agent",
         "techstack": "Langchain, Coze AI, RAG model, Three JS",
         "github": "https://github.com/pbearc/intuition?tab=readme-ov-file",
         "demo": "https://youtu.be/9RDqXmom4xg?si=fQxCvYS3AMA1yKMU"
