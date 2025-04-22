@@ -1,5 +1,4 @@
 // import campusarimg from "../../assets/campusarimg.png";
-// import change_management from "../../assets/change_management.png";
 // import tictactoeimg from "../../assets/tictactoeimg.png";
 // import creditcardimg from "../../assets/creditcardimg.png";
 // import portfolioimg from "../../assets/portfolioimg.png";
@@ -11,8 +10,9 @@ import campusimg from "../../assets/campusimg.png";
 import braceleteimg from "../../assets/braceleteimg.png";
 import ats_generator from "../../assets/ats-generator.jpeg";
 import visualizerimg from "../../assets/visualizerimg.png";
-import interactivepaintingimg from "../../assets/interactive_painting.png";
-import githubragimg from "../../assets/github_rag.png";
+import interactivepaintingimg from "../../assets/interactive_painting.jpg";
+import githubragimg from "../../assets/github-rag.png";
+import change_management from "../../assets/change_management.png";
 
 
 export const projectsData = [
@@ -63,6 +63,14 @@ export const projectsData = [
         "techstack": "Arduino, C++",
         "github": "https://github.com/chongjiayee0156/re-activate-eras-tour-bracelete",
         "demo": "https://youtube.com/shorts/gFjsvRJ6slU?si=mh0nGtKLHOg4ZV83"
+    },
+    {
+        "name": "Company Services Portal (iNTUition hackathon)",
+        "img": change_management,
+        "description": "Developed within 24 hours, this dashboard is to encourage employee's adoption of new tech by integrating AI RAG models within AI Agent.",
+        "techstack": "Langchain, Coze AI, RAG model, Three JS",
+        "github": "https://github.com/pbearc/intuition?tab=readme-ov-file",
+        "demo": "https://youtu.be/9RDqXmom4xg?si=Z3fvPOU3xNT6scxN"
     },
 //     {
 //         "name": "Sorting Algorithm Visualizer",

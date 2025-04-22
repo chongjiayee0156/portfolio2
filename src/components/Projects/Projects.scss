@@ -51,6 +51,11 @@ $desktop-p-size: 4vmin;
                 width: 100%;
                 height: 150px;
                 border-radius: 1rem;
+                object-fit: cover;
+                transition: all 0.3s ease;
+                &:hover{
+                    transform: scale(1.05);
+                }
             }
         }
 
