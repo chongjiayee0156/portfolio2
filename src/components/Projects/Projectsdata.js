@@ -1,16 +1,18 @@
 // import campusarimg from "../../assets/campusarimg.png";
-import tictactoeimg from "../../assets/tictactoeimg.png";
-import creditcardimg from "../../assets/creditcardimg.png";
-import portfolioimg from "../../assets/portfolioimg.png";
-import visualizerimg from "../../assets/visualizerimg.png";
-import organizationtasktrackingimg from "../../assets/organizationtasktrackingimg.png";
-import responsivesinglepagewebsiteimg from "../../assets/responsivesinglepagewebsiteimg.png";
-import animatedcandleimg from "../../assets/animatedcandleimg.png";
+// import change_management from "../../assets/change_management.png";
+// import tictactoeimg from "../../assets/tictactoeimg.png";
+// import creditcardimg from "../../assets/creditcardimg.png";
+// import portfolioimg from "../../assets/portfolioimg.png";
+// import organizationtasktrackingimg from "../../assets/organizationtasktrackingimg.png";
+// import responsivesinglepagewebsiteimg from "../../assets/responsivesinglepagewebsiteimg.png";
+// import animatedcandleimg from "../../assets/animatedcandleimg.png";
+// import faceimg from "../../assets/faceimg.png";
 import campusimg from "../../assets/campusimg.png";
 import braceleteimg from "../../assets/braceleteimg.png";
-import faceimg from "../../assets/faceimg.png";
 import ats_generator from "../../assets/ats-generator.jpeg";
-import change_management from "../../assets/change_management.png";
+import visualizerimg from "../../assets/visualizerimg.png";
+import interactivepaintingimg from "../../assets/interactive_painting.png";
+import githubragimg from "../../assets/github_rag.png";
 
 
 export const projectsData = [
@@ -23,12 +25,20 @@ export const projectsData = [
         "demo": "https://youtu.be/3-9s5kqQRYQ?si=92h_zn0IMB5106vC"
     },
     {
-        "name": "Company Services Portal (iNTUition hackathon)",
-        "img": change_management,
-        "description": "Developed within 24 hours, this dashboard is to encourage employee's adoption of new tech by integrating AI RAG models within AI Agent",
-        "techstack": "Langchain, Coze AI, RAG model, Three JS",
-        "github": "https://github.com/pbearc/intuition?tab=readme-ov-file",
-        "demo": "https://youtu.be/9RDqXmom4xg?si=fQxCvYS3AMA1yKMU"
+        "name": "Github Repository RAG Chatbot",
+        "img": githubragimg,
+        "description": "Ask LLM questions about a repo searched",
+        "techstack": "RAG indexing, langgraph, github search api",
+        "github": "https://github.com/chongjiayee0156/github-rag",
+        "demo": "https://www.youtube.com/watch?v=aV4cq7W9uY0"
+    },
+    {
+        "name": "Robotic Interactive Painting",
+        "img": interactivepaintingimg,
+        "description": "Robotic arm interacts with canvas to produce random beats",
+        "techstack": "Arduino, Python, Painting, Grasshoper",
+        "github": "https://youtube.com/shorts/OXiJf2GplcQ",
+        "demo": "https://www.youtube.com/watch?v=aV4cq7W9uY0"
     },
     {
         "name": "Campus Indoor AR Navigation",
@@ -39,6 +49,14 @@ export const projectsData = [
         "demo": "https://youtube.com/shorts/kHn7hkHZYn8?feature=share"
     },
     {
+        "name": "Advanced Algorithm and Data Structure",
+        "img": visualizerimg,
+        "description": "Code for advanced algorithm and data structure",
+        "techstack": "Dijkstra, Backtracking, Ford-Fulkerson",
+        "github": "https://github.com/chongjiayee0156/basic-algorithm-and-data-structure",
+        "demo": ""
+    },
+    {
         "name": "Re-activating eras tour bracelette",
         "img": braceleteimg,
         "description": "Learned Arduino to build an infrared emitter. By sending signals to the wrist band, the light will be lit up.",
@@ -46,65 +64,65 @@ export const projectsData = [
         "github": "https://github.com/chongjiayee0156/re-activate-eras-tour-bracelete",
         "demo": "https://youtube.com/shorts/gFjsvRJ6slU?si=mh0nGtKLHOg4ZV83"
     },
-    {
-        "name": "Sorting Algorithm Visualizer",
-        "img": visualizerimg,
-        "description": "A sorting algorithm revision website, includes visualizer, code, complexity and explanation of the algorithm",
-        "techstack": "html, css, javascript, data structure and algorithm",
-        "github": "https://github.com/chongjiayee0156/Sorting-Algo-Visualizer",
-        "demo": "https://chongjiayee0156.github.io/Sorting-Algo-Visualizer/"
-    },
-    {
-        "name": "Fullstack Task Tracker",
-        "img": organizationtasktrackingimg,
-        "description": "Utilized 3 servers for backend, frontend, database. A task tracker for organization, includes authentication, authorization, CRUD operations, and task tracking features",
-        "techstack": "React, node, express, redux, mongodb",
-        "github": "https://github.com/chongjiayee0156/fullstack-note-tracking",
-        "demo": "https://swiftnote-tpdp.onrender.com/"
-    },
-    {
-        "name": "Face Recognition Payment System",
-        "img": faceimg,
-        "description": "Real-time face detection and recognition to process payment",
-        "techstack": "OpenCV, TKinter",
-        "github": "https://github.com/chongjiayee0156/face_recognition_payment_system",
-        "demo": "https://youtube.com/shorts/fbBtJJrJIis?si=6guAoFyB4K4Zgs49"
-    },
-    {
-        "name": "Animated Glowing Candle",
-        "img": animatedcandleimg,
-        "description": "Used css to code from scartch, an animated glowing candle on a birthday cake",
-        "techstack": "css, html",
-        "github": "https://github.com/chongjiayee0156/bday-website",
-        "demo": "https://chongjiayee0156.github.io/bday-website/"
-    },
-{
-        "name": "Tic Tac Toe Game",
-        "img": tictactoeimg,
-        "description": "A simple Tic Tac Toe game website",
-        "techstack": "React, HTML, CSS",
-        "github": "https://github.com/chongjiayee0156/tictactoe",
-        "demo": "https://tictactoe-azure-six.vercel.app/"
-    },{
-        "name": "Flipping Credit Card",
-        "img": creditcardimg,
-        "description": "A credit card that flips when hovered over",
-        "techstack": "HTML, CSS, 3D animation",
-        "github": "https://github.com/chongjiayee0156/flipping-credit-card",
-        "demo": "https://chongjiayee0156.github.io/flipping-credit-card/"
-    },{
-        "name": "Portfolio Website",
-        "img": portfolioimg,
-        "description": "A portfolio website to showcase my projects and skills",
-        "techstack": "React, HTML, CSS, JavaScript, Bootstrap, GitHub Pages",
-        "github": "https://github.com/chongjiayee0156/portfolio2",
-        "demo": "https://portfolio2-azure-eight.vercel.app/"
-    },{
-        "name": "Single Responsive Rocket Website",
-        "img": responsivesinglepagewebsiteimg,
-        "description": "A responsive single page website",
-        "techstack": "HTML, CSS, JavaScript",
-        "github": "https://github.com/chongjiayee0156/rocket",
-        "demo": "https://rocketjy.onrender.com/"
-    }
+//     {
+//         "name": "Sorting Algorithm Visualizer",
+//         "img": visualizerimg,
+//         "description": "A sorting algorithm revision website, includes visualizer, code, complexity and explanation of the algorithm",
+//         "techstack": "html, css, javascript, data structure and algorithm",
+//         "github": "https://github.com/chongjiayee0156/Sorting-Algo-Visualizer",
+//         "demo": "https://chongjiayee0156.github.io/Sorting-Algo-Visualizer/"
+//     },
+//     {
+//         "name": "Fullstack Task Tracker",
+//         "img": organizationtasktrackingimg,
+//         "description": "Utilized 3 servers for backend, frontend, database. A task tracker for organization, includes authentication, authorization, CRUD operations, and task tracking features",
+//         "techstack": "React, node, express, redux, mongodb",
+//         "github": "https://github.com/chongjiayee0156/fullstack-note-tracking",
+//         "demo": "https://swiftnote-tpdp.onrender.com/"
+//     },
+//     {
+//         "name": "Face Recognition Payment System",
+//         "img": faceimg,
+//         "description": "Real-time face detection and recognition to process payment",
+//         "techstack": "OpenCV, TKinter",
+//         "github": "https://github.com/chongjiayee0156/face_recognition_payment_system",
+//         "demo": "https://youtube.com/shorts/fbBtJJrJIis?si=6guAoFyB4K4Zgs49"
+//     },
+//     {
+//         "name": "Animated Glowing Candle",
+//         "img": animatedcandleimg,
+//         "description": "Used css to code from scartch, an animated glowing candle on a birthday cake",
+//         "techstack": "css, html",
+//         "github": "https://github.com/chongjiayee0156/bday-website",
+//         "demo": "https://chongjiayee0156.github.io/bday-website/"
+//     },
+// {
+//         "name": "Tic Tac Toe Game",
+//         "img": tictactoeimg,
+//         "description": "A simple Tic Tac Toe game website",
+//         "techstack": "React, HTML, CSS",
+//         "github": "https://github.com/chongjiayee0156/tictactoe",
+//         "demo": "https://tictactoe-azure-six.vercel.app/"
+//     },{
+//         "name": "Flipping Credit Card",
+//         "img": creditcardimg,
+//         "description": "A credit card that flips when hovered over",
+//         "techstack": "HTML, CSS, 3D animation",
+//         "github": "https://github.com/chongjiayee0156/flipping-credit-card",
+//         "demo": "https://chongjiayee0156.github.io/flipping-credit-card/"
+//     },{
+//         "name": "Portfolio Website",
+//         "img": portfolioimg,
+//         "description": "A portfolio website to showcase my projects and skills",
+//         "techstack": "React, HTML, CSS, JavaScript, Bootstrap, GitHub Pages",
+//         "github": "https://github.com/chongjiayee0156/portfolio2",
+//         "demo": "https://portfolio2-azure-eight.vercel.app/"
+//     },{
+//         "name": "Single Responsive Rocket Website",
+//         "img": responsivesinglepagewebsiteimg,
+//         "description": "A responsive single page website",
+//         "techstack": "HTML, CSS, JavaScript",
+//         "github": "https://github.com/chongjiayee0156/rocket",
+//         "demo": "https://rocketjy.onrender.com/"
+//     }
 ]
