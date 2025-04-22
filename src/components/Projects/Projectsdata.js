@@ -37,8 +37,8 @@ export const projectsData = [
         "img": interactivepaintingimg,
         "description": "Robotic arm interacts with canvas to produce random beats",
         "techstack": "Arduino, Python, Painting, Grasshoper",
-        "github": "https://youtube.com/shorts/OXiJf2GplcQ",
-        "demo": "https://www.youtube.com/watch?v=aV4cq7W9uY0"
+        "github": "",
+        "demo": "https://youtube.com/shorts/OXiJf2GplcQ"
     },
     {
         "name": "Campus Indoor AR Navigation",
